@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Transitions</title>
+</head>
+<body>
+    <div class="dialog-container">
+        <button data-open-dialog class="btn">Abrir un dialogo</button>
+        <dialog data-dialog class="dialogWd">
+            <span> Esto es un cuadro de dialogo</span>
+            <button data-close-dialog class="btn-close">Close</button>
+        </dialog>
+    </div>
+
+    <div class="modal-container">
+        <button data-open-modal class="btn">Abrir un modal</button>
+        <dialog data-modal class="modalWd">
+            <span>Esto es un cuadro Modal</span>
+            <button data-close-modal class="btn-close">Close</button>
+        </dialog>
+    </div>
+    
+    <div class="form-container">
+        <button data-open-form class="btn">Abrir un form</button>
+        <dialog data-form>
+            <form >
+                <input type="text" />
+                <button type="submit" formmethod="dialog">Cancel</button>
+                <button type="submit">Submit</button>
+            </form>
+        </dialog>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
