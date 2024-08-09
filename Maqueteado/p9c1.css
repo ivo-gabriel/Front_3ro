@@ -158,6 +158,7 @@ section{
         p{
             width: 80%;
             height: auto;
+            font-size: 1.5vw;
         }
     }
     
@@ -205,8 +206,7 @@ section{
                                                 
                     }
                     p{
-                        font-size: xx-small;
-                        /* max-width: 60%;     */
+                        font-size: 1vw;
                     }
                 }
             }
@@ -243,6 +243,7 @@ footer{
                 .img{
                     width: 30%;
                     aspect-ratio: 1/1;
+                    max-height: 150%;
                     background-color: var(--principal2);
                 }
 
@@ -257,6 +258,8 @@ footer{
             p{
                 height: 50%;
                 width: 100%;
+                
+                font-size: 1vw;
             }
         }
     }
