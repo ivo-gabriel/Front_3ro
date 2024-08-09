@@ -194,7 +194,7 @@ section{
     
                 .pimg{
                     height: 80%;
-                    width: 50px;
+                    aspect-ratio: 1/1;
                     background-color: var(--bg);
                 }
                 .post{
@@ -242,7 +242,7 @@ footer{
 
                 .img{
                     width: 30%;
-                    height: 40px;
+                    aspect-ratio: 1/1;
                     background-color: var(--principal2);
                 }
 
