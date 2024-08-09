@@ -187,9 +187,9 @@ section{
             .post-cont{
                 width: 80%;
                 height: 20%;
-                background-color: var(--color-feo-para-ver);
                 
                 display: flex;
+                /* justify-content: flex-start; */
                 align-items: center;
     
                 .pimg{
@@ -198,13 +198,15 @@ section{
                     background-color: var(--bg);
                 }
                 .post{
-                    margin-left: 10px;
-    
+                    width: calc(100% - 50px - 5px);
+                    margin-left: 5px;
+                    
                     h4{
-    
+                                                
                     }
                     p{
-                        font-size: xx-small;    
+                        font-size: xx-small;
+                        /* max-width: 60%;     */
                     }
                 }
             }
